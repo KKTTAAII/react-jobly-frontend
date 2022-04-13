@@ -78,6 +78,8 @@ function Profile() {
           },
           token
         );
+        console.log("Profile has been updated");
+        swal("Profile has been updated");
       } catch (e) {
         createError(".Update-Form-Container", e);
       }
