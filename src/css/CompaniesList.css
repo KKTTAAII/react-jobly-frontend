@@ -24,13 +24,11 @@
 
 .prev,
 .next {
-  background: #fff;
+  background-color: white;
   border: none;
   color: blue;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
   margin: 0 10px;
   cursor: pointer;
-  height: 50px;
 }
 
 .prev.disabled,
@@ -46,3 +44,8 @@
   align-items: center;
   text-align: center;
 }
+
+.active {
+  font-weight: 800;
+}
+

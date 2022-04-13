@@ -48,4 +48,15 @@ function createInput(name, type, value, handleChange, label) {
   );
 }
 
-export { empty, createError, removeErrElement, clearInputs, createInput };
+function clearPreviousActiveLink() {
+  const allLinks = document.getElementsByClassName("page-link");
+  if (allLinks) {
+    for (let link of allLinks) {
+      link.classList.remove("active");
+    }
+  } else {
+    return;
+  }
+}
+
+export { empty, createError, removeErrElement, clearInputs, createInput, clearPreviousActiveLink };

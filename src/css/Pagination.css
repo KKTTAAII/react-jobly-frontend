@@ -29,8 +29,8 @@
 }
 
 /*this does not seem to work. Why is the link not active?*/
-.pagination-nav .page-link.active {
-    color: rgb(222, 133, 44);
+a:target {
+    font-weight: 700;
 }
 
 .pagination-nav {

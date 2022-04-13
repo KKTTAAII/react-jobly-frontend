@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useFetch } from "../hooks";
 import { Link } from "react-router-dom";
 import CompanyCard from "./CompanyCard";
