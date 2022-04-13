@@ -148,7 +148,10 @@ function JobList() {
         <button
           onClick={goToNextPage}
           className={`next ${
-            currentPage === jobs.length / jobsPerPage ? "disabled" : ""
+            currentPage === jobs.length / jobsPerPage ||
+            jobs.length < jobsPerPage
+              ? "disabled"
+              : ""
           }`}
         >
           next

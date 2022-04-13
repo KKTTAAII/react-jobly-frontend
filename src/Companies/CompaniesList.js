@@ -118,7 +118,10 @@ function CompaniesList() {
         <button
           onClick={goToNextPage}
           className={`next ${
-            currentPage === companies.length / compsPerPage ? "disabled" : ""
+            currentPage === companies.length / compsPerPage ||
+            companies.length < compsPerPage
+              ? "disabled"
+              : ""
           }`}
         >
           next
