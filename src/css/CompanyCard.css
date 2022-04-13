@@ -1,0 +1,29 @@
+.CompanyCard {
+    display: flex;
+    justify-content: center;
+}
+
+.CompanyCard-card {
+    border: solid grey 1px;
+    margin: 20px;
+    width: 50vw;
+    border-radius: 10px;
+    background-color: #c7ddcc;
+    border: 1.5px solid;
+    box-shadow: 5px 2px 2px;
+}
+
+.CompanyCard-Link {
+    text-decoration: none;
+    color: black;
+}
+
+.CompanyCard-Link:hover {
+    text-decoration: none;
+    color: #2F5C8F;
+}
+
+.CompanyCard-title {
+    font-size: 1.5em;
+    font-weight: 600;
+}

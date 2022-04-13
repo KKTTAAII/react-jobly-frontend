@@ -1,0 +1,38 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.page-item {
+    width: 30px;
+    height: 30px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-left: 5px;
+}
+
+.page-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px; 
+}
+
+.page-item:hover {
+    border-style: none;
+    background-color: #778beb;
+}
+
+/*this does not seem to work. Why is the link not active?*/
+.pagination-nav .page-link.active {
+    color: rgb(222, 133, 44);
+}
+
+.pagination-nav {
+    width:fit-content;
+}

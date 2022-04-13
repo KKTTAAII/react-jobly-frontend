@@ -1,0 +1,17 @@
+.CompaniesDetail {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.CompaniesDetail-title {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.loading{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

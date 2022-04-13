@@ -1,0 +1,60 @@
+.LogIn {
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #dcaeaa;
+    border-radius: 10px;
+    height: auto;
+    box-shadow: 2px 2px 2px 1px;
+}
+
+.LogIn-header {
+    font-size: 2em;
+    margin: 15px auto;
+    color: rgb(105, 99, 99);
+    font-weight: 500;
+}
+
+.LogIn-form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+label {
+    font-size: 1.2em;
+    margin: 7px;
+}
+
+input {
+    border-radius: 5px;
+    height: 2em;
+    margin: 5px;
+}
+
+.LogIn-button {
+    border-radius: 5px;
+    height: 2em;
+    width: 10em;
+    margin: 15px auto;
+}
+
+.LogIn-button:hover{
+    cursor: pointer;
+}
+
+.err-container {
+    margin: 0 auto;
+    background-color: rgb(224, 67, 67);
+    border-radius: 5px;
+    height: 25px;
+    box-shadow: 2px 2px 2px 1px;
+    padding: .2em;
+    width: auto;
+}
+
+small {
+    margin: 0 auto;
+    color: white;
+}

@@ -1,0 +1,59 @@
+.NavBar {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    z-index: 9999; 
+    background-color: #b6c199;
+    height: 60px;
+    box-shadow: 2px 2px 2px;
+  }
+
+.NavBar-Nav {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.nav-item {
+    width: 100px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.container-fluid {
+    width: 100vw;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a.active {
+    font-weight: bold;
+}
+
+nav a.active:hover {
+    color: #687d9c !important;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: #687d9c;
+}
+
+.navbar-brand {
+    margin: 20px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+nav a:not(.navbar-brand):hover {
+    font-weight: bold;
+}
+
+.navbar-brand, .navbar-link {
+    color: rgb(105, 99, 99);
+}

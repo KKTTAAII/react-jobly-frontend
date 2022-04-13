@@ -1,0 +1,51 @@
+.JobList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.JobList-searchbox-input {
+    width: 500px;
+}
+
+.JobList-searchbox-btn {
+    border-radius: 5px;
+    height: 2.5em;
+    width: 5em;
+    margin: 15px auto;
+}
+
+.loading {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.prev,
+.next {
+  background: #fff;
+  border: none;
+  color: blue;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  margin: 0 10px;
+  cursor: pointer;
+  height: 50px;
+}
+
+.prev.disabled,
+.next.disabled {
+  pointer-events: none;
+  box-shadow: none;
+  color: #999;
+}
+
+.JobList-pages {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
