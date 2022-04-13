@@ -71,6 +71,8 @@ function JobList() {
     try {
       const res = await JoblyApi.getAll("jobs", { title: searchTerm }, token);
       setJobs(res);
+      const input = document.querySelector(".JobList-searchbox-input");
+      input.value = "";
     } catch (e) {
       console.log(e);
       swal(ERROR);

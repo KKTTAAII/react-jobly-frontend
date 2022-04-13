@@ -56,6 +56,8 @@ function CompaniesList() {
         token
       );
       setCompanies(res);
+      const input = document.querySelector(".CompaniesList-searchBox");
+      input.value = "";
     } catch (e) {
       console.log(e);
       swal(ERROR);
